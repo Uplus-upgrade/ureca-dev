@@ -5,6 +5,7 @@ function App() {
   return (
   <div>안녕하세요
     <p>찬별 등장</p>
+    <p>22222</p>
   </div>
   );
 }
