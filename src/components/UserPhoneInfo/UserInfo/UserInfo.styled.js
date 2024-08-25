@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 100vw;
+  width: 100%;
   min-width: 32rem;
   max-width: 40rem;
-  height: 27vh;
+  /* height: 27vh; */
   margin-top: 3.3rem;
   display: flex;
   flex-direction: column;
@@ -16,12 +16,13 @@ export const Container = styled.div`
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+
   ${({ category }) =>
     category === 'phone' &&
     `
+      gap: 0.5rem;
       :nth-child(2) {
-        margin-bottom: 1.2rem;
+        margin-bottom: 2rem;
       }
       border-bottom: 1px solid lightgray;
     `}
