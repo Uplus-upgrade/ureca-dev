@@ -1,11 +1,10 @@
-import { createBrowserRouter } from "react-router-dom";
-import Container from "./components/Container/Container";
-import GlobalLayout from "./layout/GlobalLayout";
+import { createBrowserRouter } from 'react-router-dom';
+import GlobalLayout from './layout/GlobalLayout';
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <GlobalLayout />,
-    children: [{ index: true, element: <Container /> }],
+    children: [{ index: true, element: <></> }],
   },
 ]);

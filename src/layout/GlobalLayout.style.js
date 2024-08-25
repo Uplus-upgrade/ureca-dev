@@ -14,6 +14,6 @@ export const GlobalContainer = styled.div`
 `;
 
 export const GlobalContent = styled.div`
-  flex: 1;
+  flex: 1; 
   padding: 2.4rem 1.6rem 0;
 `;
