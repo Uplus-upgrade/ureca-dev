@@ -2,21 +2,18 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  min-width: 32rem;
-  max-width: 40rem;
-  /* height: 27vh; */
   margin-top: 3.3rem;
   display: flex;
   flex-direction: column;
   border: 2px solid black;
   border-radius: 2rem;
-  padding: 0rem 2.4rem 2rem 2.4rem;
+  padding: 1rem 2.4rem 1rem 2.4rem;
 `;
 
 export const Wrapper = styled.div`
   display: flex;
+  width: 100%;
   flex-direction: column;
-
   ${({ category }) =>
     category === 'phone' &&
     `
@@ -25,6 +22,8 @@ export const Wrapper = styled.div`
         margin-bottom: 2rem;
       }
       border-bottom: 1px solid lightgray;
+      gap: 0.5rem;
+
     `}
   ${({ category }) =>
     category === 'charge' &&

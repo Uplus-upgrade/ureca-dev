@@ -93,6 +93,7 @@ const GlobalStyle = createGlobalStyle`
 
   html {
     font-size: 62.5%;
+    width: 100%;
   }
 
   body {
@@ -161,6 +162,10 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     font: inherit;
     border: none;
+  }
+
+  #root{
+    width: 100%;
   }
 `;
 

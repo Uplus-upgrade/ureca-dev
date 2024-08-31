@@ -2,15 +2,14 @@ import React from 'react';
 import * as S from './GlobalLayout.style';
 import { Outlet } from 'react-router-dom';
 import Header from '../components/Header';
-import UserInfo from '../components/UserPhoneInfo/UserInfo';
-
-export default function GlobalLayout({ children }) {
+import UserPhoneInfo from '../components/UserPhoneInfo';
+export default function GlobalLayout() {
   return (
     <S.GlobalContainer>
       {/* header 자리  */}
+      <Header />
       <S.GlobalContent>
-        <Header />
-        <UserInfo />
+        <UserPhoneInfo />
         <Outlet />
       </S.GlobalContent>
     </S.GlobalContainer>
