@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import * as S from './Carousel.style';
 
-const images = [
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8a2kVsR3KxIIP-U89bU1genrenQb7I9CNyQ&s',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhghOVmF3cH1DJqHAyPadBLq8etqMxc2vm7w&s',
-  'https://search.pstatic.net/sunny/?src=http%3A%2F%2Fkr-cdn.spooncast.net%2Fprofiles%2Fd%2FjAB6gdfjM8eaq%2F66ad7083-6f7e-4435-98d7-f0a1d9f9118b.jpg&type=a340',
-];
+// const images = [
+//   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8a2kVsR3KxIIP-U89bU1genrenQb7I9CNyQ&s',
+//   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhghOVmF3cH1DJqHAyPadBLq8etqMxc2vm7w&s',
+//   'https://search.pstatic.net/sunny/?src=http%3A%2F%2Fkr-cdn.spooncast.net%2Fprofiles%2Fd%2FjAB6gdfjM8eaq%2F66ad7083-6f7e-4435-98d7-f0a1d9f9118b.jpg&type=a340',
+// ];
 
-export default function Carousel() {
+export default function Carousel({images}) {
   const TOTAL_SLIDES = 2;
   const [curruntIdx, setCurrentIdx] = useState(0);
   const [count, setCount] = useState(0);
