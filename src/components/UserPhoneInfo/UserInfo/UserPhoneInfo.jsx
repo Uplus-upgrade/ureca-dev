@@ -1,12 +1,12 @@
 import React from 'react';
 import * as S from './UserInfo.styled';
 
-export default function UserPhoneInfo() {
+export default function UserPhoneInfo({ data }) {
   return (
     <>
       <S.Wrapper category="phone">
-        <S.h4>010-51**-87**</S.h4>
-        <S.p>유쓰 5G 다이렉트 44</S.p>
+        <S.h4>{data.phoneNumber}</S.h4>
+        <S.p>{data.chargePlan}</S.p>
       </S.Wrapper>
     </>
   );
