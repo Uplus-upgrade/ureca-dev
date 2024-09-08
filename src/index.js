@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import GlobalStyle from './styles/GlobalStyle';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 
 async function enableMocking() {
   if (process.env.NODE_ENV !== 'development') {
@@ -15,12 +17,17 @@ async function enableMocking() {
   return worker.start();
 }
 
+const queryClient = new QueryClient();
+
 enableMocking().then(() => {
   const root = ReactDOM.createRoot(document.getElementById('root'));
   root.render(
     <React.StrictMode>
-      <GlobalStyle />
-      <App />
+      <QueryClientProvider client={queryClient}>
+        <GlobalStyle />
+        <App />
+        <ReactQueryDevtools initialIsOpen={false} />
+      </QueryClientProvider>
     </React.StrictMode>,
   );
 });
