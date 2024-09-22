@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Iphone 16 Pro 256GB",
+    "plan": "(넷플릭스) 5G 프리미엄",
+    "planPrice": "73,500",
+    "phonePrice": "75,000",
+    "recent": true,
+    "popular": true
+  },
+  {
+    "name": "Iphone 16 Pro Max 256GB",
+    "plan": "(넷플릭스) 5G 프리미엄",
+    "planPrice": "73,500",
+    "phonePrice": "61,850",
+    "recent": true,
+    "popular": true
+  },
+  {
+    "name": "Iphone 16 256GB",
+    "plan": "(넷플릭스) 5G 프리미엄",
+    "planPrice": "73,500",
+    "phonePrice": "91,850",
+    "recent": true,
+    "popular": true
+  },
+  {
+    "name": "갤럭시 Z Flip6 256GB",
+    "plan": "(티빙) 5G 프리미엄",
+    "planPrice": "73,500",
+    "phonePrice": "65,740",
+    "recent": true,
+    "popular": false
+  },
+  {
+    "name": "갤럭시 Z Fold6 256GB",
+    "plan": "(티빙) 5G 프리미엄",
+    "planPrice": "73,500",
+    "phonePrice": "98,720",
+    "recent": true,
+    "popular": false
+  }
+]
