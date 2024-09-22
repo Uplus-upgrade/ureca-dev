@@ -4,15 +4,13 @@ import * as S from './UserInfo.styled';
 import ChargeInfo from './ChargeInfo';
 // import axios from 'axios';
 // import { useQuery } from '@tanstack/react-query';
-import useGetUserData from '../../../hooks/queries/useGetUserData';
 
-export default function UserInfo() {
-  const data = useGetUserData();
+export default function UserInfo({data}) {
 
   return (
     <S.Container>
       <UserPhoneInfo data={data} />
-      <ChargeInfo />
+      <ChargeInfo data={data}/>
     </S.Container>
   );
 }

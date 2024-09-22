@@ -2,6 +2,11 @@
   {
     "phoneNumber": "010-1234-5678",
     "chargePlan": "유쓰 5G 다이랙트",
-    "chargePrice": "41800"
+    "chargePrice": "41,800",
+    "month": "9월",
+    "remainDay": 22,
+    "pay": "납부 완료",
+    "usingData": 41.0,
+    "remainData": 33.74
   }
 ]
