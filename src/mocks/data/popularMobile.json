@@ -1,6 +1,7 @@
 [
   {
     "name": "Iphone 16 Pro 256GB",
+    "photo": "https://image.lguplus.com/static/pc-contents/images/fcmm/cnts/imge/20240913-024351-938-Cc8EdGXA.png",
     "plan": "(넷플릭스) 5G 프리미엄",
     "planPrice": "73,500",
     "phonePrice": "75,000",
@@ -9,6 +10,7 @@
   },
   {
     "name": "Iphone 16 Pro Max 256GB",
+    "photo": "https://image.lguplus.com/static/pc-contents/images/fcmm/cnts/imge/20240913-024347-920-rRkcvMhq.png",
     "plan": "(넷플릭스) 5G 프리미엄",
     "planPrice": "73,500",
     "phonePrice": "61,850",
@@ -17,6 +19,7 @@
   },
   {
     "name": "Iphone 16 256GB",
+    "photo": "https://image.lguplus.com/static/pc-contents/images/fcmm/cnts/imge/20240913-024343-398-iAOWXytM.png",
     "plan": "(넷플릭스) 5G 프리미엄",
     "planPrice": "73,500",
     "phonePrice": "91,850",
@@ -25,6 +28,7 @@
   },
   {
     "name": "갤럭시 Z Flip6 256GB",
+    "photo": "https://image.lguplus.com/static/pc-contents/images/fcmm/cnts/imge/20240711-100647-820-JlOURBF8.png",
     "plan": "(티빙) 5G 프리미엄",
     "planPrice": "73,500",
     "phonePrice": "65,740",
@@ -33,6 +37,7 @@
   },
   {
     "name": "갤럭시 Z Fold6 256GB",
+    "photo": "https://www.lguplus.com/static/pc-contents/images/prdv/20240711-021126-188-GOT2AnII.png",
     "plan": "(티빙) 5G 프리미엄",
     "planPrice": "73,500",
     "phonePrice": "98,720",
