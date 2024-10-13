@@ -7,6 +7,6 @@ export const handlers = [
   }),
 
   http.get('/api/popular-mobile', () => {
-    return HttpResponse.json({ popularMobile });
+    return HttpResponse.json(popularMobile);
   }),
 ];

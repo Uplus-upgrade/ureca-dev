@@ -8,6 +8,7 @@ export const Container = styled.div`
   border: 2px solid black;
   border-radius: 2rem;
   padding: 1rem 2.4rem 1rem 2.4rem;
+  background-color: white;
 `;
 
 export const Wrapper = styled.div`

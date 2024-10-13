@@ -6,7 +6,7 @@ export const GlobalContainer = styled.div`
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color: #fff;
+  background: linear-gradient(white, #F9D2FF);
   box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
 `;
 
